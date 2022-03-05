@@ -79,16 +79,16 @@ class _ForumPageState extends State<ForumPage> {
         new CategoryIcon(Icons.cake, "Food", false),
         new CategoryIcon(Icons.book, "Book", false),
         new CategoryIcon(Icons.games, "Games", false),
-        new CategoryIcon(Icons.history, "History", false),
+        new CategoryIcon(Icons.history, "Careers", false),
       ],
     ),
   );
 
   static final listItemsData = [
-    new ListEntry("Forum 1", "test", "description 1", 54, 2, true),
-    new ListEntry("Forum 2", "test", "description 2",  154, 3,false),
-    new ListEntry("Forum 3", "test", "description 3", 971, 0, false),
-    new ListEntry("Forum 4", "test", "description 4",  124, 2,true),
+    new ListEntry("Discussions ", "test", "description 1", 54, 2, true),
+    new ListEntry("View Images ", "test", "description 2",  154, 3,false),
+    new ListEntry("Similar interests ", "test", "description 3", 971, 0, false),
+    new ListEntry("Career guidance", "test", "description 4",  124, 2,true),
     new ListEntry("Forum 5", "test", "description 5",  412, 5,true),
     new ListEntry("Forum 6", "test", "description 6",  12, 1,true),
   ];

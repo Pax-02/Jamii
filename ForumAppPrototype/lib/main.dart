@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Forum',
+      title: 'Jamii',
       theme: new ThemeData(
         primarySwatch: AppColorsTheme.myTheme.primarySwatch,
       ),

@@ -8,12 +8,12 @@ class LoginPage extends StatelessWidget {
         centerTitle: true,
         elevation: 0.0,
         title: new Text(
-          "Welcome",
+          "Welcome to JAMII",
           textScaleFactor: 1.3,
         ),
       ),
       body: new Container(
-        color: Colors.deepPurple,
+        color: Colors.white,
         padding: const EdgeInsets.all(30.0),
         child: new Column(
           children: <Widget>[
@@ -33,7 +33,7 @@ class LoginPage extends StatelessWidget {
             new TextField(
               controller: new TextEditingController(),
               decoration: new InputDecoration(
-                hintText: 'Username',
+                hintText: 'Phone number',
                 filled: true,
                 fillColor: Colors.white70,
               ),
